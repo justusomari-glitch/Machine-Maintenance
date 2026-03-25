@@ -52,10 +52,10 @@ def maintenance_prediction(data:MachineInputs):
     weights=np.array([0.2,0.6,0.2])
     final_score=np.dot(criteria,weights)
 
-    if anomaly_binary ==1:
-        answer= "An anomalie in operation has been detected"
+    if anomaly_binary ==1 and final_score>0.4:
+        answer= "An anomaly in operations has been detected"
     else:
-        answer="There is no anomaly detected"
+        answer="No anomaly Detected"
 
 
 
