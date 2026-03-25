@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+API_URL=st.secrets["API_URL"]
 st.set_page_config(layout="wide")
 st.title("Machine Maintenance Control Panel")
 left,right=st.columns([1,2])
@@ -28,7 +28,7 @@ with right:
             "subcomponent":subcomponent,
             "section":section
         }
-        response=requests.post("API_URL",json=payload)
+        response=requests.post(API_URL,json=payload)
         result=response.json()[0]
 
         anomaly=result["Anomaly"]
