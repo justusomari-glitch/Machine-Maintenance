@@ -5,9 +5,9 @@ from src.schema import MachineInputs
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
-anomaly_model=joblib.load("anomaly_pipeline.pkl")
-days_model=joblib.load("failure_days.pkl")
-maintenance_model=joblib.load("maintenance_type_prediction.pkl")
+anomaly_model=joblib.load("models/anomaly_pipeline.pkl")
+days_model=joblib.load("models/failure_days.pkl")
+maintenance_model=joblib.load("models/maintenance_type_prediction.pkl")
 threshold=joblib.load("threshold.pkl")
 
 app=FastAPI(title="Machine Maintenance System")
