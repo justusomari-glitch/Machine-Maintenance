@@ -28,7 +28,7 @@ with right:
             "subcomponent":subcomponent,
             "section":section
         }
-        response=requests.post("https://machine-maintenance-6t6v.onrender.com/predict",json=payload)
+        response=requests.post("API_URL",json=payload)
         result=response.json()[0]
 
         anomaly=result["Anomaly"]
@@ -38,24 +38,35 @@ with right:
         decision=result["decision"]
 
         if score> 0.6:
-            st.error("HIGH RISK")
+            st.error("#### HIGH RISK")
         elif score > 0.4:
-            st.warning("MEDIUM RISK")
+            st.warning("#### MEDIUM RISK")
         else:
-            st.success("LOW RISK")
+            st.success("#### LOW RISK")
 
         st.divider()
-        st.subheader("Anomaly Indication")
-        st.write(anomaly)
+        if "no anomaly" in anomaly.lower():
+            st.success("#### No Anomaly Detected")
+        else:
+            st.error("#### Anomaly Detected")
+        
 
         st.divider()
         c1,c2,c3=st.columns(3)
 
         
-        c1.metric("Faiure Risk",f"{prob*100:.1f}%")
-        c2.metric("Maintenance",maintenance)
-        c3.metric("Score",f"{score:.2f}")
+        with c1:
+            st.markdown("#### Failure Risk")
+            st.metric("",f"{prob*100:.2f}%")
+        with c2:
+            st.markdown("#### Maintenance")
+            st.metric("",maintenance)
+        with c3:
+            st.markdown("#### Score")
+            st.metric("",f"{score:.2f}")
 
         st.divider()
         st.subheader("Recommended Action")
-        st.write(decision)
+        st.write(f"#### {decision}")
+        st.markdown("---")
+        st.markdown("Built By **Omari Kwache Justus Junior**")
