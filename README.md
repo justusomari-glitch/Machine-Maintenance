@@ -1,5 +1,5 @@
 # Machine-Maintenance
-A production-oriented predictive maintenannce system that combines multiple machine learning models  into a unified decision to prioritize maintenance actions ,reduce downime and optimize operational efficiency
+A production-oriented predictive maintenance system that combines multiple machine learning models  into a unified decision to prioritize maintenance actions ,reduce downime and optimize operational efficiency
 
 ## Overveiw
 Anomaly Detection(isolation Forest)
@@ -11,14 +11,14 @@ Recommends appropriate maintenance actions
 
 These outputs are combined using a Multi-Creteria Maintenance Decision framework to generate actionable decision
 
-## Key Feartures
+## Key Features
 Early detection for proactive monitoring
-Faiure probability estimation for risk assesment
+Failure probability estimation for risk assessment
 Intelligence Maintenance recommendation
 Experiment tracking and model versioning with mlflow
 
 ## System Output 
-For each machne the system provides:
+For each machine the system provides:
 1. Failure probability
 2. Anomaly status
 3. Recommended maintenance types
