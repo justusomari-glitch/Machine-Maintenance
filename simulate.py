@@ -22,9 +22,9 @@ while True:
         section=random.choice(sections)
         Payload={
             "machine_age_days":random.randint(100,2000),
-            "temperature":random.uniform(30,500),
-            "vibration":random.uniform(10,200),
-            "pressure":random.uniform(10,300),
+            "temperature":random.uniform(30,100),
+            "vibration":random.uniform(2,10),
+            "pressure":random.uniform(6,30),
             "component":component,
             "subcomponent":subcomponent,
             "section":section
@@ -42,6 +42,10 @@ while True:
         
         if results["Final Score"]>0.6:
             print("HIGH RiSK ALERT")
+        elif results["Final Score"]>0.4:
+            print("SChedule Maintenance")
+        else:
+            print("Normal Operations")
     except Exception as e:
         print("Error",e)
 

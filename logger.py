@@ -27,9 +27,9 @@ def log_data(Payload,results):
 
         writer.writerow([
             datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            Payload["temperature"],
-            Payload["vibration"],
-            Payload["pressure"],
+            round(Payload["temperature"],2),
+            round(Payload["vibration"],2),
+            round(Payload["pressure"],2),
             Payload["component"],
             Payload["subcomponent"],
             Payload["section"],
