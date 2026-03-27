@@ -3,6 +3,7 @@ import time
 import random
 import os
 from dotenv import load_dotenv
+from logger import log_data
 
 load_dotenv()
 API_URL=os.getenv("API_URL")
@@ -30,6 +31,7 @@ while True:
         }
         response=requests.post(API_URL,json=Payload)
         results=response.json()[0]
+        log_data(Payload,results)
         print("----NeW DATA---")
         print(f"MACHINE: {section} | {component} | {subcomponent}")
         print("Failure Probability",results["Failure Probability"])

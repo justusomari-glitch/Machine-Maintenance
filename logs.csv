@@ -1,0 +1,40 @@
+timestamp,temperature,vibration,pressure,component,subcomponent,section,failure_probability,maintenance,maint_score,final_score
+2026-03-27 21:24:43.202155,384.2888759160691,187.58987478617402,67.86079713869023,Roller Press,Motor,Cement Mill,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:24:50.233483,206.47462455927695,53.836224898278566,135.495505094863,Roller Press,Motor,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:24:57.307803,378.543189838485,190.45311804056598,64.30370299702847,Vertical Mill,Mill Bearing,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:25:04.008210,79.19362523576052,107.30716610783476,32.45493026059141,Vertical Mill,Gearbox,Crusher,0.61,Preventive,0.7,0.71,An anomaly in operations has been detected
+2026-03-27 21:25:11.114031,75.77458430306022,89.76964568308587,50.50339251693278,Ball Mill,Mill Bearing,Kiln,0.62,Preventive,0.7,0.71,An anomaly in operations has been detected
+2026-03-27 21:25:17.613359,217.4003589508554,80.71629232803707,299.64011098873124,Ball Mill,Hydraulic System,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:25:24.131608,121.40706135386644,137.31876159167902,205.8268965084673,Roller Press,Motor,Kiln,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:25:30.812165,412.73244175844957,80.97195829073317,279.3789279340885,Roller Press,Hydraulic System,Crusher,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:25:37.241637,248.62853177591208,62.23114947926905,232.56077690476133,Roller Press,Gearbox,Cement Mill,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:25:43.713100,422.70548363937866,125.54744158232539,126.09698618430127,Vertical Mill,Gearbox,Cement Mill,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:32:27,477.5427614026196,57.479001949776716,162.8592216771856,Vertical Mill,Hydraulic System,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:32:33,372.24081597227655,138.08786327369128,158.37936244366563,Vertical Mill,Hydraulic System,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:32:40,169.06395916808106,131.33267405970082,83.78942634039467,Roller Press,Motor,Cement Mill,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:32:46,464.7503246094585,181.78234772419285,79.19223459989495,Vertical Mill,Motor,Crusher,0.69,Preventive,0.7,0.76,An anomaly in operations has been detected
+2026-03-27 21:32:53,299.6554833393742,147.88741854364457,264.5238016695494,Vertical Mill,Mill Bearing,Kiln,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:00,463.60427785445677,86.83613368081215,266.53934060738993,Vertical Mill,Mill Bearing,Cement Mill,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:06,375.3440442915104,12.592785008609958,242.08234910347812,Vertical Mill,Motor,Cement Mill,0.69,Preventive,0.7,0.76,An anomaly in operations has been detected
+2026-03-27 21:33:13,392.21953382863796,163.46202166439994,226.52397146605173,Roller Press,Gearbox,Crusher,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:19,142.00805285572343,108.41250663857606,221.82566631909447,Vertical Mill,Mill Bearing,Cement Mill,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:26,429.76213648962033,60.78775871742342,34.17258442064535,Vertical Mill,Motor,Kiln,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:32,96.37709083473871,94.44566518164515,249.51175951428496,Vertical Mill,Motor,Crusher,0.65,Preventive,0.7,0.73,An anomaly in operations has been detected
+2026-03-27 21:33:39,416.6762073823769,159.32623150778826,258.49952263001035,Roller Press,Hydraulic System,Cement Mill,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:45,117.16994738747933,13.61019011667964,44.85782580342233,Vertical Mill,Gearbox,Kiln,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:51,136.99260616194238,118.95682400735434,266.24984508480225,Roller Press,Motor,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 21:33:58,180.71369103428754,179.33894477808659,190.40467539172127,Ball Mill,Hydraulic System,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 23:59:48,435.7759505651653,169.62949104554892,125.93487867419682,Ball Mill,Hydraulic System,Cement Mill,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-27 23:59:55,103.81369254137185,32.39010277592508,242.91506444826948,Roller Press,Mill Bearing,Cement Mill,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:00:02,286.4814739269935,92.46540677385505,183.4329228878623,Roller Press,Mill Bearing,Kiln,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:00:08,459.0396538947996,89.3398333618618,13.244737324392215,Roller Press,Motor,Kiln,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:00:15,80.94569224875868,23.92445725070529,138.11481294459588,Roller Press,Hydraulic System,Kiln,0.61,Preventive,0.7,0.71,An anomaly in operations has been detected
+2026-03-28 00:00:22,193.62677541022217,131.53671012388003,290.38407590151013,Vertical Mill,Mill Bearing,Kiln,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:00:28,193.636221788617,113.30337749387424,287.9699655991082,Ball Mill,Motor,Cement Mill,0.69,Preventive,0.7,0.76,An anomaly in operations has been detected
+2026-03-28 00:00:35,302.5363137879657,137.67983847513966,55.50430008139354,Ball Mill,Hydraulic System,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:00:41,232.16181456315303,32.05771951840218,139.20092084192788,Roller Press,Hydraulic System,Cement Mill,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:00:48,302.81986654194304,165.1557121953501,196.36121847207005,Roller Press,Gearbox,Cement Mill,0.68,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:00:54,178.7336626397361,101.19223590392951,242.6530699549208,Ball Mill,Motor,Kiln,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:01:01,243.19086597139986,33.168472108501746,285.2777886310748,Roller Press,Mill Bearing,Crusher,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
+2026-03-28 00:01:07,272.6255240489827,193.68779074490237,249.1339802589877,Ball Mill,Motor,Crusher,0.69,Preventive,0.7,0.76,An anomaly in operations has been detected
+2026-03-28 00:01:14,238.3597097240555,92.28880168090443,98.48753724223104,Vertical Mill,Hydraulic System,Cement Mill,0.69,Preventive,0.7,0.75,An anomaly in operations has been detected
